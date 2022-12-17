@@ -31,7 +31,7 @@ void loop() {
 	timer_1();
 }
 
-void timer_1() {//
+void timer_1() {
 	if (Timer0.available()) {
 		if(!MPU6050.update()){
 			Serial << "NG" << mwx::crlf;
