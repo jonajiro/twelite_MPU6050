@@ -77,7 +77,7 @@ bool MPU6050::update(void) {
 	ayRaw = au8data[2] << 8 | au8data[3];
 	azRaw = au8data[4] << 8 | au8data[5];
 	Temperature = au8data[6] << 8 | au8data[7];
-	gxRaw = au8data[7] << 8 | au8data[9];
+	gxRaw = au8data[8] << 8 | au8data[9];
 	gyRaw = au8data[10] << 8 | au8data[11];
 	gzRaw = au8data[12] << 8 | au8data[13];
 	// 加速度値を分解能で割って加速度(m/s2)に変換する
