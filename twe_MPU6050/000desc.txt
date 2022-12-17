@@ -1,0 +1,4 @@
+[JAPANESE]
+TITLE=twe_mpu6050
+DESC=MPU6050の基本動作チェック
+URL=https://github.com/jonajiro/twelite_MPU6050
